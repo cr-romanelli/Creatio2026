@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtAIAgenticBridgeApp/Schemas/AIPlatformEntityEvents/AIPlatformEntityEvents.cs" Condition="Exists('$(PkgPath)/CrtAIAgenticBridgeApp/Schemas/AIPlatformEntityEvents/AIPlatformEntityEvents.cs')" />
+	</ItemGroup>
+</Project>

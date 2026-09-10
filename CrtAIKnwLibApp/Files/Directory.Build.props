@@ -1,0 +1,14 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwDeferredIndexationQueue/KnwDeferredIndexationQueue.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwDeferredIndexationQueue/KnwDeferredIndexationQueue.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwIndexingSession/KnwIndexingSession.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwIndexingSession/KnwIndexingSession.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwIndexingStatus/KnwIndexingStatus.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwIndexingStatus/KnwIndexingStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwProvider/KnwProvider.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwProvider/KnwProvider.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwProviderConnection/KnwProviderConnection.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwProviderConnection/KnwProviderConnection.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSource/KnwSource.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSource/KnwSource.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSourceFile/KnwSourceFile.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSourceFile/KnwSourceFile.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSourceInSkill/KnwSourceInSkill.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSourceInSkill/KnwSourceInSkill.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSourceStatus/KnwSourceStatus.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSourceStatus/KnwSourceStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSrcEventsOutbox/KnwSrcEventsOutbox.cs" Condition="Exists('$(PkgPath)/CrtAIKnwLibApp/Schemas/KnwSrcEventsOutbox/KnwSrcEventsOutbox.cs')" />
+	</ItemGroup>
+</Project>

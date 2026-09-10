@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-beasties-container>
+<head>
+  <meta charset="utf-8">
+  <title>AI Twin Shell Host</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(180deg, #edf4ff 0%, #f7f8fb 100%);
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+    }
+
+    .assistant-chat-shell-dev-host {
+      box-sizing: border-box;
+      width: min(1200px, 100vw);
+      height: 100vh;
+      padding: 24px;
+    }
+
+    .assistant-chat-shell-dev-frame {
+      box-sizing: border-box;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      width: 100%;
+      height: 100%;
+      min-height: 640px;
+      border: 1px solid rgba(13, 46, 78, 0.08);
+      border-radius: 20px;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 24px 60px rgba(27, 39, 51, 0.12);
+    }
+
+    .assistant-chat-shell-dev-header {
+      box-sizing: border-box;
+      display: grid;
+      gap: 4px;
+      padding: 18px 24px;
+      border-bottom: 1px solid rgba(13, 46, 78, 0.08);
+      background: rgba(244, 248, 255, 0.9);
+    }
+
+    .assistant-chat-shell-dev-eyebrow {
+      color: #4f6b88;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .assistant-chat-shell-dev-title {
+      color: #0d2e4e;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .assistant-chat-shell-dev-subtitle {
+      color: #5f748d;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    crt-ai-twin-shell {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+    }
+  </style>
+  <script>
+    window.__assistantChatShellDevHarness = true;
+    window.__crtAiAssistantChatShellConfig = {
+      remoteEntryUrl: "http://127.0.0.1:3020/remoteEntry.json",
+      mockMode: true
+    };
+  </script>
+<link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
+<body>
+  <div class="assistant-chat-shell-dev-host">
+    <div class="assistant-chat-shell-dev-frame">
+      <div class="assistant-chat-shell-dev-header">
+        <div class="assistant-chat-shell-dev-eyebrow">Local Smoke Test</div>
+        <div class="assistant-chat-shell-dev-title">Creatio Angular shell hosting the React chat remote</div>
+        <div class="assistant-chat-shell-dev-subtitle">
+          The Angular remote entry is served from <code>localhost:4100</code> and directly mounts
+          the local React remote from <code>127.0.0.1:3020/remoteEntry.json</code>.
+        </div>
+      </div>
+      <crt-ai-twin-shell></crt-ai-twin-shell>
+    </div>
+  </div>
+<script src="polyfills.b481d997d536e02f.js" type="module"></script><script src="main.ab5008ad75d64df8.js" type="module"></script></body>
+</html>

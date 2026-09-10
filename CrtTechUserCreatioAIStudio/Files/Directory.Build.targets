@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Resources/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Data/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioAIStudio/Resources/**" />
+  </ItemGroup>
+</Project>

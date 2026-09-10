@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtMailboxUtils/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtMailboxUtils/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtMailboxUtils/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtMailboxUtils/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtMailboxUtils/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMailboxUtils/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMailboxUtils/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMailboxUtils/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMailboxUtils/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtMailboxUtils/Resources/**" />
+		<None Remove="$(PkgPath)/CrtMailboxUtils/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtMailboxUtils/Data/**" />
+		<None Remove="$(PkgPath)/CrtMailboxUtils/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtMailboxUtils/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtMailboxUtils/Resources/**" />
+  </ItemGroup>
+</Project>

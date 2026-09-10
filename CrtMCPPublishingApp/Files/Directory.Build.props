@@ -1,0 +1,8 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtMCPPublishingApp/Schemas/McpServer/McpServer.cs" Condition="Exists('$(PkgPath)/CrtMCPPublishingApp/Schemas/McpServer/McpServer.cs')" />
+		<Compile Include="$(PkgPath)/CrtMCPPublishingApp/Schemas/McpSourceCodeAction/McpSourceCodeAction.cs" Condition="Exists('$(PkgPath)/CrtMCPPublishingApp/Schemas/McpSourceCodeAction/McpSourceCodeAction.cs')" />
+		<Compile Include="$(PkgPath)/CrtMCPPublishingApp/Schemas/McpTool/McpTool.cs" Condition="Exists('$(PkgPath)/CrtMCPPublishingApp/Schemas/McpTool/McpTool.cs')" />
+		<Compile Include="$(PkgPath)/CrtMCPPublishingApp/Schemas/McpToolSourceType/McpToolSourceType.cs" Condition="Exists('$(PkgPath)/CrtMCPPublishingApp/Schemas/McpToolSourceType/McpToolSourceType.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+{
+  "Name": "MCP Publishing",
+  "Description": "",
+  "Maintainer": "Creatio",
+  "Icon": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj48ZyBzdHJva2U9IiNmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjc0Ij48cGF0aCBkPSJtNi4xMzQgMTQuNzExIDkuODQxLTkuODRhMy40OCAzLjQ4IDAgMSAxIDQuOTIgNC45MmwtNy40MzEgNy40MzIiLz48cGF0aCBkPSJtMTMuNTY2IDE3LjEyIDcuMzMtNy4zM2EzLjQ4IDMuNDggMCAwIDEgNC45MiAwbC4wNTEuMDUyYTMuNDggMy40OCAwIDAgMSAwIDQuOTJsLTguOSA4LjlhMS4xNiAxLjE2IDAgMCAwIDAgMS42NGwxLjgyOCAxLjgyOCIvPjxwYXRoIGQ9Im0xOC40MzYgNy4zMy03LjI3OSA3LjI3OWEzLjQ4IDMuNDggMCAwIDAgNC45MiA0LjkybDcuMjc5LTcuMjc4Ii8+PC9nPjwvc3ZnPg==",
+  "IconName": "mcp-section-icon.svg",
+  "Color": "#22AC14",
+  "Version": "1.1.8",
+  "RequiredPlatformVersion": "8.3.4",
+  "MarketplaceLink": "",
+  "DependsOn": [
+    {
+      "Code": "CrtAIAgenticBridgeApp",
+      "Name": "CrtAIAgenticBridgeApp",
+      "Version": "1.1.0",
+      "Type": 0
+    }
+  ],
+  "Code": "CrtMCPPublishingApp",
+  "Packages": [
+    {
+      "UId": "4ff654b0-03ac-46dd-91bf-6efde13c81b3",
+      "Name": "CrtMCPPublishingApp"
+    }
+  ]
+}

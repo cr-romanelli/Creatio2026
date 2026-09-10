@@ -1,0 +1,10 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtSegmentation/Schemas/SegmentResumeMode/SegmentResumeMode.cs" Condition="Exists('$(PkgPath)/CrtSegmentation/Schemas/SegmentResumeMode/SegmentResumeMode.cs')" />
+		<Compile Include="$(PkgPath)/CrtSegmentation/Schemas/SysDataSegment/SysDataSegment.cs" Condition="Exists('$(PkgPath)/CrtSegmentation/Schemas/SysDataSegment/SysDataSegment.cs')" />
+		<Compile Include="$(PkgPath)/CrtSegmentation/Schemas/SysSegmentExitMode/SysSegmentExitMode.cs" Condition="Exists('$(PkgPath)/CrtSegmentation/Schemas/SysSegmentExitMode/SysSegmentExitMode.cs')" />
+		<Compile Include="$(PkgPath)/CrtSegmentation/Schemas/SysSegmentRefreshMode/SysSegmentRefreshMode.cs" Condition="Exists('$(PkgPath)/CrtSegmentation/Schemas/SysSegmentRefreshMode/SysSegmentRefreshMode.cs')" />
+		<Compile Include="$(PkgPath)/CrtSegmentation/Schemas/SysSegmentSystemStatus/SysSegmentSystemStatus.cs" Condition="Exists('$(PkgPath)/CrtSegmentation/Schemas/SysSegmentSystemStatus/SysSegmentSystemStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtSegmentation/Schemas/SysSegmentUserStatus/SysSegmentUserStatus.cs" Condition="Exists('$(PkgPath)/CrtSegmentation/Schemas/SysSegmentUserStatus/SysSegmentUserStatus.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtAIAgenticBridgeApp/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtAIAgenticBridgeApp/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Resources/**" />
+		<None Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Data/**" />
+		<None Remove="$(PkgPath)/CrtAIAgenticBridgeApp/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtAIAgenticBridgeApp/Resources/**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtAiTwinApp/Schemas/AIManagement/AIManagement.cs" Condition="Exists('$(PkgPath)/CrtAiTwinApp/Schemas/AIManagement/AIManagement.cs')" />
+	</ItemGroup>
+</Project>

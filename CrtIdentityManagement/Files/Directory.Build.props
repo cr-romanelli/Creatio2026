@@ -1,0 +1,7 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtIdentityManagement/Schemas/SysExternalService/SysExternalService.cs" Condition="Exists('$(PkgPath)/CrtIdentityManagement/Schemas/SysExternalService/SysExternalService.cs')" />
+		<Compile Include="$(PkgPath)/CrtIdentityManagement/Schemas/SysIdentityProvider/SysIdentityProvider.cs" Condition="Exists('$(PkgPath)/CrtIdentityManagement/Schemas/SysIdentityProvider/SysIdentityProvider.cs')" />
+		<Compile Include="$(PkgPath)/CrtIdentityManagement/Schemas/SysIdPToExtSvcMapping/SysIdPToExtSvcMapping.cs" Condition="Exists('$(PkgPath)/CrtIdentityManagement/Schemas/SysIdPToExtSvcMapping/SysIdPToExtSvcMapping.cs')" />
+	</ItemGroup>
+</Project>

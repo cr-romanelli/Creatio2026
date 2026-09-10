@@ -1,0 +1,19 @@
+{
+  "Name": "CrtIdentityManagement",
+  "Description": "",
+  "Maintainer": "Creatio",
+  "IconName": "",
+  "Color": "",
+  "Version": "1.0.2",
+  "RequiredPlatformVersion": "8.3.4",
+  "MarketplaceLink": "",
+  "DependsOn": [],
+  "Code": "CrtIdentityManagement",
+  "IsHidden": true,
+  "Packages": [
+    {
+      "UId": "5096c18f-94f2-0694-61ec-6438e3bd9d11",
+      "Name": "CrtIdentityManagement"
+    }
+  ]
+}

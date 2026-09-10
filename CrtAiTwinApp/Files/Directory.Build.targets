@@ -1,0 +1,19 @@
+<Project>
+    <ItemGroup Condition="'$(PkgPath)' != ''">
+        <Compile Remove="$(PkgPath)/CrtAiTwinApp/Assemblies/**" />
+        <Compile Remove="$(PkgPath)/CrtAiTwinApp/Data/**" />
+        <Compile Remove="$(PkgPath)/CrtAiTwinApp/SqlScripts/**" />
+        <Compile Remove="$(PkgPath)/CrtAiTwinApp/Schemas\**" />
+        <Compile Remove="$(PkgPath)/CrtAiTwinApp/Resources/**" />
+        <EmbeddedResource Remove="$(PkgPath)/CrtAiTwinApp/Assemblies/**" />
+        <EmbeddedResource Remove="$(PkgPath)/CrtAiTwinApp/Data/**" />
+        <EmbeddedResource Remove="$(PkgPath)/CrtAiTwinApp/SqlScripts/**" />
+        <EmbeddedResource Remove="$(PkgPath)/CrtAiTwinApp/Schemas/**" />
+        <EmbeddedResource Remove="$(PkgPath)/CrtAiTwinApp/Resources/**" />
+        <None Remove="$(PkgPath)/CrtAiTwinApp/Assemblies/**" />
+        <None Remove="$(PkgPath)/CrtAiTwinApp/Data/**" />
+        <None Remove="$(PkgPath)/CrtAiTwinApp/SqlScripts/**" />
+        <None Remove="$(PkgPath)/CrtAiTwinApp/Schemas/**" />
+        <None Remove="$(PkgPath)/CrtAiTwinApp/Resources/**" />
+    </ItemGroup>
+</Project>

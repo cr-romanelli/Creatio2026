@@ -1,0 +1,15 @@
+﻿copilotpanel {
+	div.crt-ai-twin-shell-main,
+	div.crt-ai-twin-shell-main-container,
+	.crt-ai-twin-shell-host {
+		height: 100%;
+		min-height: 0;
+	}
+}
+
+crt-sidebar-content:has(.crt-ai-twin-shell-main) > crt-page-tools crt-button.design-button,
+crt-sidebar-content:has(.crt-ai-twin-shell-main) > crt-page-tools crt-button:has(mat-icon[data-mat-icon-name="min-settings-icon"]),
+crt-sidebar-content:has(.crt-ai-twin-shell-host) > crt-page-tools crt-button.design-button,
+crt-sidebar-content:has(.crt-ai-twin-shell-host) > crt-page-tools crt-button:has(mat-icon[data-mat-icon-name="min-settings-icon"]) {
+	display: none !important;
+}
