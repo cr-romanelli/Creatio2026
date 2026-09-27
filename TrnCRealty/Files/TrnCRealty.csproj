@@ -346,6 +346,11 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="CrtC360InUiV2">
+			<HintPath>$(RelativePkgFolderPath)/CrtC360InUiV2/$(StandalonePackageAssemblyPath)/CrtC360InUiV2.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="CrtCalendar">
 			<HintPath>$(RelativePkgFolderPath)/CrtCalendar/$(StandalonePackageAssemblyPath)/CrtCalendar.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -393,6 +398,21 @@
 		</Reference>
 		<Reference Include="CrtCoreFilePreview">
 			<HintPath>$(RelativePkgFolderPath)/CrtCoreFilePreview/$(StandalonePackageAssemblyPath)/CrtCoreFilePreview.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtCustomer360AI">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360AI/$(StandalonePackageAssemblyPath)/CrtCustomer360AI.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtCustomer360App">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtCustomer360Mobile">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360Mobile/$(StandalonePackageAssemblyPath)/CrtCustomer360Mobile.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -683,7 +703,13 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
-	<ItemGroup Label="Entity Files" />
+	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCCarBodyType/TrnCCarBodyType.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCCarBodyType/TrnCCarBodyType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealty/TrnCRealty.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealty/TrnCRealty.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyOfferType/TrnCRealtyOfferType.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyOfferType/TrnCRealtyOfferType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyType/TrnCRealtyType.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyType/TrnCRealtyType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCVwContactAgeDays/TrnCVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCVwContactAgeDays/TrnCVwContactAgeDays.cs')" />
+	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
 		<Message Importance="High" Text="*********** Project [$(MSBuildProjectFile)] TargetFramework [$(TargetFramework)] CoreTargetFramework [$(CoreTargetFramework)]" />

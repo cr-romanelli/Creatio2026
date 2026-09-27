@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0997189a-6afb-4da4-b418-514448286277",
+    "Name": "TrnCRealtyRelatedPage",
+    "ModifiedOnUtc": "\/Date(1789314561000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty (Page settings)",
+    "DependsOn": []
+  }
+}

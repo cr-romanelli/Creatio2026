@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "bd314869-e7a5-4521-8040-c0b5d7a54723",
+    "Name": "TrnCRealtyType",
+    "ModifiedOnUtc": "\/Date(1789482084000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Realty Type",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "7beda65c-1da2-4a6f-8cbe-b824f8889b12",
+    "Name": "TrnCRealty_Detail",
+    "ModifiedOnUtc": "\/Date(1789314561000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty detail",
+    "DependsOn": []
+  }
+}

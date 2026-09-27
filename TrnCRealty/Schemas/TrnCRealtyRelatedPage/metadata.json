@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "0997189a-6afb-4da4-b418-514448286277",
+      "A2": "TrnCRealtyRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "e6d115b8-2550-4b2e-9b9b-def40d603094",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "4ccfef3f-086b-443d-b15c-0c40d0d8ee5c",
+            "PageSchemaUId": "8995c06d-17b3-47cf-b173-f05459435454",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

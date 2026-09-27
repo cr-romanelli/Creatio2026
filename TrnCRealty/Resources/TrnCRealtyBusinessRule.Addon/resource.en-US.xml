@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.1ec8ccd4-6ba0-1577-121d-80c563fe7e43.Caption" Value="Apply filter: City" />
+			<Item Name="AddonConfig.Rules.8105b670-6540-a7ea-70fd-35853c59aea7.Caption" Value="Filter Managers" />
+			<Item Name="AddonConfig.Rules.a91b885a-f8f6-bf56-585c-2080a2659ad9.Caption" Value="ChildRule-1ec8ccd4-6ba0-1577-121d-80c563fe7e43-ClearValue" />
+			<Item Name="AddonConfig.Rules.b6320a0d-c6e8-68d2-96c1-abde54fa8de8.Caption" Value="ChildRule-1ec8ccd4-6ba0-1577-121d-80c563fe7e43-PopulateValue" />
+			<Item Name="AddonConfig.Rules.e14e1670-f67f-eb52-0638-441f5bb1cec7.Caption" Value="Make elements editable: Price, EUR" />
+			<Item Name="Caption" Value="Realty (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d2dd3b63-aaf8-4a30-b966-ebf79dfcafdc",
+    "Name": "TrnCRealtyMobileRelatedPage",
+    "ModifiedOnUtc": "\/Date(1789314561000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty (Mobile page settings)",
+    "DependsOn": []
+  }
+}

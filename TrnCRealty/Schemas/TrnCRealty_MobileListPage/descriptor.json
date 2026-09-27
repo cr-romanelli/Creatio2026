@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1ee4fbee-0811-4c2e-8ef1-4a592c2dbd07",
+    "Name": "TrnCRealty_MobileListPage",
+    "ModifiedOnUtc": "\/Date(1789314561000)\/",
+    "Parent": {
+      "UId": "011e7dda-a763-4535-9b9a-e09eddd047be",
+      "Name": "BaseMobileListTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty mobile list page",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "c9723de7-ee0f-4f97-95a9-3539d0408f7e",
+    "Name": "TrnCRealtyBusinessRule",
+    "ModifiedOnUtc": "\/Date(1790507446000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty (Business rules)",
+    "DependsOn": []
+  }
+}

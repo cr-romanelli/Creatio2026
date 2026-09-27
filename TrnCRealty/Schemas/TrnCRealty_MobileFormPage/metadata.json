@@ -1,0 +1,10 @@
+= MetaData.Schema.UId "24ae8deb-21eb-4fa2-9c1c-8c44a5103c2c"
+= MetaData.Schema.A2 "TrnCRealty_MobileFormPage"
+= MetaData.Schema.A5 "d484d861-d8e5-4a3f-84ad-1d9256189431"
+~ MetaData.Schema.B2 ["865352a4-4471-42fa-8977-63b82484d9de","651b42a7-4fb0-4b56-9ac5-8153c2793d1d","24b24147-651f-4383-9aa8-2f7c95c929db","bc2732c4-b5e1-48d1-95f7-786ffccc267b"]
+= MetaData.Schema.B6 "a00051f4-cde3-4f3f-b08e-c5ad1a5c735a"
+= MetaData.Schema.HD1 "019c694a-1a3b-4812-b2e5-219b326061ae"
+= MetaData.Schema.HD6 "null"
+- MetaData.Schema.B7
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 false

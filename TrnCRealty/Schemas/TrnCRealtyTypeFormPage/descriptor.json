@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "103744a0-d34b-449f-b80d-97f5d0418cb0",
+    "Name": "TrnCRealtyTypeFormPage",
+    "ModifiedOnUtc": "\/Date(1789479240000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty Type form page"
+  }
+}

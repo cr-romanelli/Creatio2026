@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "e10580f2-3637-40b9-bef0-b734da57147e",
+    "Name": "TrnCRealty_FormPageBusinessRule",
+    "ModifiedOnUtc": "\/Date(1790418488000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty form page (Business rules)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "095e53f1-7889-456e-b384-9c288d6bbe8f",
+    "Name": "TrnCRealty_ListPage",
+    "ModifiedOnUtc": "\/Date(1789314561000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty list page",
+    "DependsOn": []
+  }
+}
