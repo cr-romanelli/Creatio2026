@@ -2,8 +2,9 @@
   "Descriptor": {
     "UId": "2633e754-1d4a-4006-a1e8-eb5f2945bb6a",
     "Name": "TrnCRealtyVisitRelatedPage",
-    "ModifiedOnUtc": "\/Date(1790590680000)\/",
+    "ModifiedOnUtc": "\/Date(1790590681000)\/",
     "ManagerName": "AddonSchemaManager",
-    "Caption": "Realty visit (Page settings)"
+    "Caption": "Realty visit (Page settings)",
+    "DependsOn": []
   }
 }

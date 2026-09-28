@@ -1,9 +1,11 @@
 <Project>
 	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/TrnCRealty/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/TrnCRealty/Schemas/Account/Account.cs')" />
 		<Compile Include="$(PkgPath)/TrnCRealty/Schemas/TrnCCarBodyType/TrnCCarBodyType.cs" Condition="Exists('$(PkgPath)/TrnCRealty/Schemas/TrnCCarBodyType/TrnCCarBodyType.cs')" />
 		<Compile Include="$(PkgPath)/TrnCRealty/Schemas/TrnCRealty/TrnCRealty.cs" Condition="Exists('$(PkgPath)/TrnCRealty/Schemas/TrnCRealty/TrnCRealty.cs')" />
 		<Compile Include="$(PkgPath)/TrnCRealty/Schemas/TrnCRealtyOfferType/TrnCRealtyOfferType.cs" Condition="Exists('$(PkgPath)/TrnCRealty/Schemas/TrnCRealtyOfferType/TrnCRealtyOfferType.cs')" />
 		<Compile Include="$(PkgPath)/TrnCRealty/Schemas/TrnCRealtyType/TrnCRealtyType.cs" Condition="Exists('$(PkgPath)/TrnCRealty/Schemas/TrnCRealtyType/TrnCRealtyType.cs')" />
+		<Compile Include="$(PkgPath)/TrnCRealty/Schemas/TrnCRealtyVisit/TrnCRealtyVisit.cs" Condition="Exists('$(PkgPath)/TrnCRealty/Schemas/TrnCRealtyVisit/TrnCRealtyVisit.cs')" />
 		<Compile Include="$(PkgPath)/TrnCRealty/Schemas/TrnCVwContactAgeDays/TrnCVwContactAgeDays.cs" Condition="Exists('$(PkgPath)/TrnCRealty/Schemas/TrnCVwContactAgeDays/TrnCVwContactAgeDays.cs')" />
 	</ItemGroup>
 </Project>

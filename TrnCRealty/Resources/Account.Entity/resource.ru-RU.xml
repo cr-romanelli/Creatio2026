@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ru-RU">
+	<Group Type="String">
+		<Items>
+			<Item Name="Columns.AccountCategory.Caption" Value="Категория" />
+			<Item Name="Columns.AccountLogo.Caption" Value="Логотип контрагента" />
+			<Item Name="Columns.AddressType.Caption" Value="Тип адреса" />
+			<Item Name="Columns.AnnualRevenue.Caption" Value="Годовой оборот" />
+			<Item Name="Columns.City.Caption" Value="Город" />
+			<Item Name="Columns.Country.Caption" Value="Страна" />
+			<Item Name="Columns.CreatedBy.Caption" Value="Создал" />
+			<Item Name="Columns.EmployeesNumber.Caption" Value="Количество сотрудников" />
+			<Item Name="Columns.Industry.Caption" Value="Отрасль" />
+			<Item Name="Columns.ModifiedBy.Caption" Value="Изменил" />
+			<Item Name="Columns.Owner.Caption" Value="Ответственный" />
+			<Item Name="Columns.Ownership.Caption" Value="Форма собственности" />
+			<Item Name="Columns.Parent.Caption" Value="Родительский контрагент" />
+			<Item Name="Columns.PrimaryContact.Caption" Value="Основной контакт" />
+			<Item Name="Columns.Region.Caption" Value="Область/штат" />
+			<Item Name="Columns.Type.Caption" Value="Тип" />
+		</Items>
+	</Group>
+</Resources>

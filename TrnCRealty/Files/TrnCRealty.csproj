@@ -704,10 +704,12 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/Account/Account.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCCarBodyType/TrnCCarBodyType.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCCarBodyType/TrnCCarBodyType.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealty/TrnCRealty.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealty/TrnCRealty.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyOfferType/TrnCRealtyOfferType.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyOfferType/TrnCRealtyOfferType.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyType/TrnCRealtyType.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyType/TrnCRealtyType.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyVisit/TrnCRealtyVisit.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCRealtyVisit/TrnCRealtyVisit.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCVwContactAgeDays/TrnCVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/TrnCRealty/Schemas/TrnCVwContactAgeDays/TrnCVwContactAgeDays.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
