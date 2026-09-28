@@ -6,6 +6,7 @@
 			<Item Name="Columns.TrnCCity.Caption" Value="City" />
 			<Item Name="Columns.TrnCColumn9.Caption" Value="Area, m2" />
 			<Item Name="Columns.TrnCComment.Caption" Value="Comment" />
+			<Item Name="Columns.TrnCCommission.Caption" Value="Commission, EUR" />
 			<Item Name="Columns.TrnCCountry.Caption" Value="Country" />
 			<Item Name="Columns.TrnCManager.Caption" Value="Manager" />
 			<Item Name="Columns.TrnCName.Caption" Value="Name" />

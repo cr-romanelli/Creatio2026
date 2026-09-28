@@ -3,6 +3,16 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Realty form page" />
+			<Item Name="LocalizableStrings.AreaCannotBeLess.Value" Value="Area cannot be less than 10 sq meters" />
+			<Item Name="LocalizableStrings.ExpansionPanel_gt8xh42_title.Value" Value="Realty visit" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_focmm1a_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_4qtqde1_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_ecy64kx_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_jtusbv6_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_kiwjoow_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_7vlf3g5_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.NumberInput_1cr5ew0_label.Value" Value="Number" />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price Cannot Be Less than 50 EUR" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
 			<Item Name="LocalizableStrings.addRecord_akfhbya_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_dpe87y5_caption.Value" Value="Add new" />

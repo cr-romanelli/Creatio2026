@@ -3,7 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Realty Offer Type" />
-			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+			<Item Name="Columns.TrnCCommissionPercent.Caption" Value="Commission Percent, from 0 to 100" />
 		</Items>
 	</Group>
 </Resources>

@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "e6d115b8-2550-4b2e-9b9b-def40d603094",
     "Name": "TrnCRealty",
-    "ModifiedOnUtc": "\/Date(1790507438000)\/",
+    "ModifiedOnUtc": "\/Date(1790526546000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Realty",
-    "DependsOn": []
+    "Caption": "Realty"
   }
 }

@@ -59,6 +59,25 @@
 - MetaData.Schema.D2.["9928edec-4272-425a-93bb-48743fee4b04"].E16
 - MetaData.Schema.D2.["3015559e-cbc6-406a-88af-07f7930be832"].E16
 - MetaData.Schema.D2.["3fabd836-6a53-4d8d-9069-6df88d9dae1e"].E16
++ MetaData.Schema.D2 {
+  "UId": "1ab6552a-9ab2-d047-8197-1ab969fa8bcc",
+  "A2": "TrnCCommissionPercent",
+  "A3": "7f58d6db-fe75-4125-aed2-4e9afa28c77c",
+  "A4": "7f58d6db-fe75-4125-aed2-4e9afa28c77c",
+  "A5": "fa25937e-2123-40d7-8812-413aaeede544",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
+~ MetaData.Schema.D2 [
+  "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+  "e80190a5-03b2-4095-90f7-a193a960adee",
+  "ebf6bb93-8aa6-4a01-900d-c6ea67affe21",
+  "9928edec-4272-425a-93bb-48743fee4b04",
+  "3015559e-cbc6-406a-88af-07f7930be832",
+  "736c30a7-c0ec-4fa9-b034-2552b319b633",
+  "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+  "3fabd836-6a53-4d8d-9069-6df88d9dae1e",
+  "1ab6552a-9ab2-d047-8197-1ab969fa8bcc"
+]
 = MetaData.Schema.D20.A2 "TrnCRealtyOfferTypeEvents"
 + MetaData.Schema.D20.FA1 false
 + MetaData.Schema.D20.FA2 false

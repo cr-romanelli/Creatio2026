@@ -1,0 +1,35 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "2633e754-1d4a-4006-a1e8-eb5f2945bb6a",
+      "A2": "TrnCRealtyVisitRelatedPage",
+      "A5": "fa25937e-2123-40d7-8812-413aaeede544",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "64c975d6-e81f-4761-a79f-9401fe0da301",
+      "B8": "10.0.0.858",
+      "AD1": "2eab0b27-e7d7-4fc2-bfa6-89a3da187e2e",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+  "Pages": [
+    {
+      "UId": "810054a6-6dfb-bed9-579c-75e0affed042",
+      "PageSchemaUId": "cbb10faa-056d-454d-8423-f1e42665e033",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": {
+        "Add": false
+      },
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+      "TypeColumnValue": null
+    }
+  ],
+  "TypeColumnUId": null
+}
+    }
+  }
+}
