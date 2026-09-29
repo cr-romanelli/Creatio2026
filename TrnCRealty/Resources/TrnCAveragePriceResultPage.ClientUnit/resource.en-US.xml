@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Average Price Result Page" />
+			<Item Name="Parameters.a0feff12-d588-938f-909e-dbd86ca37627.Caption" Value="SQL Text" />
+			<Item Name="Parameters.f4a1b5d3-ac02-9f0e-4409-6e36c34729bc.Caption" Value="Avg price, EUR/m2" />
+		</Items>
+	</Group>
+</Resources>

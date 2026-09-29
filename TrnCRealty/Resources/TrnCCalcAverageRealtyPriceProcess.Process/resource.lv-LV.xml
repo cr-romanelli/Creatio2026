@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="lv-LV">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.Caption" Value="Prioritāte" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityResult.Caption" Value="Aktivitātes rezultāts" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.Caption" Value="Modulis" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.Caption" Value="Izveidot aktivitāti" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CurrentActivityId.Caption" Value="Uzdevuma Id" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.Caption" Value="Ilgums" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.Caption" Value="Ilgums (periods)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntityId.Caption" Value="Objekts" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntitySchemaUId.Caption" Value="Objekta shēma" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntryPointId.Caption" Value="Ievadpunkts" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.InformationOnStep.Caption" Value="Informācija par soli" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.Caption" Value="Aktivitāte pabeigta" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsRunning.Caption" Value="Darbojas" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.Caption" Value="Kartes modulis" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.Caption" Value="Īpašnieks" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.PressedButtonCode.Caption" Value="Pogas kods, kuru lietotājs nospieda" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Recommendation.Caption" Value="Ieteikums" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.Caption" Value="Atgādināt īpašniekam iepriekš" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Atgādināt īpašniekam iepriekš (periods)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.Caption" Value="Automātiski parādīt izpildes lapu" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.Caption" Value="Rādīt kalendārā" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.Caption" Value="Sākt izpildi" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.Caption" Value="Sākt izpildi (periods)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.Caption" Value="Veidne" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Caption" Value="Virsraksts" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Average Price Result Page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.Caption" Value="Url" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.Caption" Value="Izmantot standarta lapas ģeneratoru" />
+			<Item Name="Caption" Value="Calculate Average Realty Price process" />
+		</Items>
+	</Group>
+</Resources>

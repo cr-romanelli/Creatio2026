@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="tr-TR">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.Caption" Value="Öncelik" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityResult.Caption" Value="Aktivitenin sonucu" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.Caption" Value="Modül" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.Caption" Value="Etkinlik Oluştur" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CurrentActivityId.Caption" Value="Task Id" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.Caption" Value="Süre" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.Caption" Value="Süre (dönem)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntityId.Caption" Value="Nesne" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntitySchemaUId.Caption" Value="Nesne Şeması" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntryPointId.Caption" Value="Giriş noktası" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.InformationOnStep.Caption" Value="Adım ile alakalı bilgi" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.Caption" Value="Faaliyet tamamlandı" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsRunning.Caption" Value="Çalışıyor" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.Caption" Value="Kart modülü" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.Caption" Value="Sahip" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.PressedButtonCode.Caption" Value="Code of the button that the user clicked" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Recommendation.Caption" Value="Öneri" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.Caption" Value="Sahibe önceden hatırlat" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Sahibe önceden hatırlat (periyot)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.Caption" Value="Otomatik olarak işlem sayfasını göster" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.Caption" Value="Takvimde göster" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.Caption" Value="Start executing in" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.Caption" Value="Yürütmeye başla (dönem)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.Caption" Value="Şablon" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Caption" Value="lBaşlık" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Average Price Result Page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.Caption" Value="Url" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.Caption" Value="Standart sayfa üreticisini kullanın" />
+			<Item Name="Caption" Value="Calculate Average Realty Price process" />
+		</Items>
+	</Group>
+</Resources>

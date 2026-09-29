@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "ba7259bd-e931-4321-a9b8-d4b4eb6548e2",
+    "Name": "TrnCCalcAverageRealtyPriceProcess",
+    "ModifiedOnUtc": "\/Date(1790620060000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculate Average Realty Price process",
+    "DependsOn": []
+  }
+}

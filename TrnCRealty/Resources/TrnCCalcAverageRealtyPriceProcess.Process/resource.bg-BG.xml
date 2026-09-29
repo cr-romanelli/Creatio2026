@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="bg-BG">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.Caption" Value="Приоритет" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityResult.Caption" Value="Резултат от дейността" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.Caption" Value="Модул" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.Caption" Value="Създай дейност" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CurrentActivityId.Caption" Value="Уникален идентификатор на задача" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.Caption" Value="Продължителност" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.Caption" Value="Продължителност (период)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntityId.Caption" Value="Обект" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntitySchemaUId.Caption" Value="Схема на обект" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntryPointId.Caption" Value="Входна точка" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.InformationOnStep.Caption" Value="Информация за стъпка" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.Caption" Value="Дейността е завършена" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsRunning.Caption" Value="В процес на изпълнение" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.Caption" Value="Картов модул" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.Caption" Value="Собственик" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.PressedButtonCode.Caption" Value="Код на бутона, който потребителят е кликнал" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Recommendation.Caption" Value="Препоръка" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.Caption" Value="Напомни на собственика предварително" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Напомни на собственика предварително (период)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.Caption" Value="Покажи автоматично страницата за изпълнение" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.Caption" Value="Покажи в календара" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.Caption" Value="Започни изпълняването след" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.Caption" Value="Започни изпълнение след (период)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.Caption" Value="Шаблон" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Caption" Value="Заглавие" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Average Price Result Page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.Caption" Value="Url" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.Caption" Value="Използвай стандартен генератор на страници" />
+			<Item Name="Caption" Value="Calculate Average Realty Price process" />
+		</Items>
+	</Group>
+</Resources>

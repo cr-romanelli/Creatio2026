@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="hu-HU">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.Caption" Value="Elsőbbség" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityResult.Caption" Value="A tevékenység eredménye" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.Caption" Value="Modul" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.Caption" Value="Tevékenység létrehozása" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CurrentActivityId.Caption" Value="Feladat azonosítója" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.Caption" Value="Időtartam" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.Caption" Value="Időtartam" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntityId.Caption" Value="Tárgy" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntitySchemaUId.Caption" Value="Objektumséma" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntryPointId.Caption" Value="Belépési pont" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.InformationOnStep.Caption" Value="Információ a lépésről" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.Caption" Value="Tevékenység befejezve" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsRunning.Caption" Value="Fut" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.Caption" Value="Kártya modul" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.Caption" Value="Tulajdonos" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.PressedButtonCode.Caption" Value="Annak a gombnak a kódja, amelyre a felhasználó rákattintott" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Recommendation.Caption" Value="Ajánlásod" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.Caption" Value="Emlékeztesse előre a tulajdonost" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Emlékeztesse előre a tulajdonost (időszak)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.Caption" Value="Végrehajtási oldal automatikus megjelenítése" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.Caption" Value="Megjelenítés a naptárban" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.Caption" Value="Végrehajtás indítása" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.Caption" Value="Végrehajtás indítása (pont)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.Caption" Value="Sablon" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Caption" Value="Cím" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Average Price Result Page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.Caption" Value="URL" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.Caption" Value="Használjon szabványos oldalgenerátort" />
+			<Item Name="Caption" Value="Calculate Average Realty Price process" />
+		</Items>
+	</Group>
+</Resources>

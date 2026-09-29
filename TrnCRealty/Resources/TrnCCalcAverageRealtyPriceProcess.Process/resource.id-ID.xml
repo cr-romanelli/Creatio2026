@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="id-ID">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityPriority.Caption" Value="Prioritas" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ActivityResult.Caption" Value="Hasil aktivitas" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ClientUnitSchemaUId.Caption" Value="Modul" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CreateActivity.Caption" Value="Buat aktivitas" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.CurrentActivityId.Caption" Value="Id Task" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Duration.Caption" Value="Durasi" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.DurationPeriod.Caption" Value="Durasi (periode)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntityId.Caption" Value="Objek" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntitySchemaUId.Caption" Value="Skema objek" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.EntryPointId.Caption" Value="Titik masuk" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.InformationOnStep.Caption" Value="Informasi dalam langkah" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsActivityCompleted.Caption" Value="Activity selesai" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.IsRunning.Caption" Value="Menjalankan" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Module.Caption" Value="Modul card" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.OwnerId.Caption" Value="Pemilik" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.PressedButtonCode.Caption" Value="Kode tombol yang diklik pengguna" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Recommendation.Caption" Value="Rekomendasi" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBefore.Caption" Value="Ingatkan pemilik sebelumnya" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.RemindBeforePeriod.Caption" Value="Ingatkan pemilik sebelumnya (periode)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowExecutionPage.Caption" Value="Tampilkan halaman eksekusi secara otomatis" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.ShowInScheduler.Caption" Value="Tampilkan pada kalender" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartIn.Caption" Value="Mulai kerjakan pada" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.StartInPeriod.Caption" Value="Mulai mengeksekusi dalam (periode)" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Template.Caption" Value="Templat" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Caption" Value="Judul" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Average Price Result Page" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Url.Caption" Value="Url" />
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.UseCardProcessModule.Caption" Value="Gunakan generator halaman standar" />
+			<Item Name="Caption" Value="Calculate Average Realty Price process" />
+		</Items>
+	</Group>
+</Resources>

@@ -81,6 +81,47 @@ define("TrnCRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 			},
 			{
 				"operation": "insert",
+				"name": "Actions",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Actions_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "actions-button-icon",
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RunCalcAVGProcess",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(RunCalcAVGProcess_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "TrnCCalcAverageRealtyPriceProcess",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "RealtyIdParameter"
+						}
+					}
+				},
+				"parentName": "Actions",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "TrnCName",
 				"values": {
 					"layoutConfig": {

@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Realty form page" />
+			<Item Name="LocalizableStrings.Actions_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.AreaCannotBeLess.Value" Value="Area cannot be less than 10 sq meters" />
 			<Item Name="LocalizableStrings.ExpansionPanel_gt8xh42_title.Value" Value="Realty visit" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_focmm1a_caption.Value" Value="New" />
@@ -14,6 +15,7 @@
 			<Item Name="LocalizableStrings.NumberInput_1cr5ew0_label.Value" Value="Number" />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price Cannot Be Less than 50 EUR" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
+			<Item Name="LocalizableStrings.RunCalcAVGProcess_caption.Value" Value="Run Cal avg price process" />
 			<Item Name="LocalizableStrings.addRecord_akfhbya_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_dpe87y5_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_mvvr9ja_caption.Value" Value="Add new" />
