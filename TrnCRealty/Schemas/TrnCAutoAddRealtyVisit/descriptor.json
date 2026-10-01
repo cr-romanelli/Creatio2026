@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6b819199-1c95-449e-9b91-2403ace56816",
+    "Name": "TrnCAutoAddRealtyVisit",
+    "ModifiedOnUtc": "\/Date(1790843965000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto add realty visit process",
+    "DependsOn": []
+  }
+}

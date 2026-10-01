@@ -16,6 +16,7 @@
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price Cannot Be Less than 50 EUR" />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me!" />
 			<Item Name="LocalizableStrings.RunCalcAVGProcess_caption.Value" Value="Run Cal avg price process" />
+			<Item Name="LocalizableStrings.RunMaxPriceServiceMenuItem_caption.Value" Value="Run max price service" />
 			<Item Name="LocalizableStrings.addRecord_akfhbya_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_dpe87y5_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_mvvr9ja_caption.Value" Value="Add new" />
